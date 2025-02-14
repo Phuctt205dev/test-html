@@ -1,0 +1,85 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red-square {
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.green-circle {
+    background-color: green;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+}
+
+.service-demand {
+    border-style: solid;
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.youtube-music {
+    background-color: rgb(44, 44, 44);
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.music-demand {
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.demand-content {
+    color: grey;
+    width: 350px;
+}
+
+.friend-1, .friend-2, .friend-3 {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: rgb(200, 200, 200);
+    box-shadow: 0.5px 3px 3px rgba(200, 200, 200, 0.8);
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.friend-name {
+    font-weight: bold;
+}
+
+.mutual-friends {
+    color: rgb(130, 130, 130);
+}
+
+.addfr-button {
+    background-color: rgb(139, 139, 255);
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    width: 120px;
+    color: white;
+}
+
+.friend-img {
+    width: 200px;
+    height: 300px;
+}

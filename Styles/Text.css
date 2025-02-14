@@ -1,0 +1,45 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .Title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    width: 400px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+
+  .Stats{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    font-size: 18px;
+    color: rgb(91, 90, 89);
+  }
+
+  .Name{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(91, 90, 89);
+  }
+
+  .Content{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    text-align: left;
+    color: rgb(91, 90, 89);
+  }
+  .Final-title {
+    background-color: rgb(194, 43, 43);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  .Shop-link{
+    cursor: pointer;
+  }
+
+  .Shop-link:hover{
+    text-decoration: underline;
+  }
