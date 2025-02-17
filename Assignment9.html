@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flexbox Practice</title>
+		<link rel="stylesheet" href="Styles/Ass9Css.css">
+	</head>
+	<body>
+		<div style="display: flex; flex-direction: row;">
+			<div style="background-color: lightblue; width: 200px;">200px</div>
+			<div style="background-color: lightpink; width: 75px;">75px</div>
+		</div>
+		<div style="display: flex; flex-direction: row; margin-top: 30px;">
+			<div style="background-color: lightblue; width: 50px;">item1</div>
+			<div style="background-color: lightpink; flex: 1;">item2</div>
+			<div style="background-color: lightblue; width: 75px;">item3</div>
+		</div>
+		<div style="display: flex; flex-direction: row; margin-top: 30px; justify-content: space-between;">
+			<div style="background-color: lightblue;">item1</div>
+			<div style="background-color: lightblue;">item2</div>
+			<div style="background-color: lightblue;">item3</div>
+			<div style="background-color: lightblue;">item4</div>
+		</div>
+		<div style="display: flex; flex-direction: row; margin-top: 30px; border-style: solid; border-color: gray; height: 50px; justify-content: space-between; align-items: center;">
+			<div style="background-color: lightblue;">item1</div>
+			<div style="background-color: lightblue;">item2</div>
+		</div>
+		<div class="notification-storer">
+			<div class="noti-detail">
+				<div style="flex: 6;">Home</div>
+				<div style="flex: 1; text-align: end;"><p style="border-style: solid; padding-left: 2px; padding-right: 2px; border-radius: 15px; background-color: rgb(78, 58, 230); color: white; text-align: center; margin-top: 0px; margin-bottom: 0px;">14</p></div>
+			</div>
+			<div class="noti-detail">
+				<div style="flex: 6;">Notifications</div>
+				<div style="flex: 1; text-align: end;"><p style="border-style: solid; padding-left: 2px; padding-right: 2px; border-radius: 15px; background-color: rgb(78, 58, 230); color: white; text-align: center; margin-top: 0px; margin-bottom: 0px;">3</p></div>
+			</div>
+			<div class="noti-detail">
+				<div style="flex: 6;">Messages</div>
+				<div style="flex: 1; text-align: end;"><p style="border-style: solid; padding-left: 2px; padding-right: 2px; border-radius: 15px; background-color: rgb(78, 58, 230); color: white; text-align: center; margin-top: 0px; margin-bottom: 0px;">5</p></div>
+			</div>
+		</div>
+		<div style="width: 500px; margin-top: 30px; display: grid; grid-template-columns: 1fr; row-gap: 15px;">
+			<div class="net-user">
+				<div class="img-p">
+					<div><img src="Images/logo-uit.png" style="width: 100%; height: 100%; border-radius: 30px;"></div>
+					<div>
+						<p class="user-name" style="font-weight: bold; color: black;">oliver</p>
+						<p class="user-nickname">the cat</p>
+						<p class="user-stat">Popular</p>
+					</div>
+				</div>
+				<button class="fl-button">Follow</button>
+			</div>
+			<div class="net-user">
+				<div class="img-p">
+					<div><img src="Images/ds.jpg" style="width: 100%; height: 100%; border-radius: 30px;"></div>
+					<div>
+						<p class="user-name" style="font-weight: bold; color: black;">Mimi</p>
+						<p class="user-nickname">Sleepy Cat</p>
+						<p class="user-stat">Popular</p>
+					</div>
+				</div>
+				<button class="fl-button">Follow</button>
+			</div>
+			<div class="net-user">
+				<div class="img-p">
+					<div><img src="Images/ds.jpg" style="width: 100%; height: 100%; border-radius: 30px;"></div>
+					<div>
+						<p class="user-name" style="font-weight: bold; color: black;">Rex</p>
+						<p class="user-nickname">Happy Bulldog</p>
+						<p class="user-stat">Popular</p>
+					</div>
+				</div>
+				<button class="fl-button">Follow</button>
+			</div>
+		</div>
+		<div class="head-bar">
+			<p class="position">Home</p>
+			<input class="search-bar" type="text" placeholder="Search">
+			<button class="download">Download</button>
+		</div>
+	</body>
+</html>
